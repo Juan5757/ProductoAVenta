@@ -26,6 +26,11 @@ public class Tests {
 		art.precio = 0;
 		art.setPrecio(5);
 		Assert.assertEquals(5, art.getPrecio());
-		
+	}
+	
+	@Test
+	public void elArticuloDeberiaRetornarTrueSiIngreso2ComoCantidadDeDisponibilidad(){
+		Articulo art = new Articulo();
+		Assert.assertEquals(true,art.estaDisponible(2));
 	}
 }

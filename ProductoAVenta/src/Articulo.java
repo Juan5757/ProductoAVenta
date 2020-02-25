@@ -35,6 +35,18 @@ public class Articulo {
 		return precio;
 	}
 
+	public boolean estaDisponible(int i) {
+		// TODO Auto-generated method stub
+		if(i > 1)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+
 	
 	
 }
