@@ -14,9 +14,9 @@ public class Articulo {
 		return nombre;
 	}
 
-	public void setSaldo(int i) {
+	public void setSaldo(int saldo) {
 		// TODO Auto-generated method stub
-		this.saldo=i;
+		this.saldo = saldo;
 	}
 
 	public int getSaldo() {
