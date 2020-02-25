@@ -2,8 +2,8 @@
 public class Articulo {
 
 	String nombre;
-	public int saldo;
-	public int precio;
+	int saldo;
+	int precio;
 	
 	public void setNombre(String nombre) {
 		// TODO Auto-generated method stub
@@ -25,9 +25,9 @@ public class Articulo {
 		return saldo;
 	}
 
-	public void setPrecio(int i) {
+	public void setPrecio(int precio) {
 		// TODO Auto-generated method stub
-		this.precio = i;
+		this.precio = precio;
 	}
 
 	public int getPrecio() {
