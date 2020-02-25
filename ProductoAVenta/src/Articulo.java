@@ -35,9 +35,9 @@ public class Articulo {
 		return precio;
 	}
 
-	public boolean estaDisponible(int i) {
+	public boolean estaDisponible(int cantidad) {
 		// TODO Auto-generated method stub
-		if(i > 1)
+		if(cantidad > 1)
 		{
 			return true;
 		}
