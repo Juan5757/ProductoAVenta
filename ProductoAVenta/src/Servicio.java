@@ -1,8 +1,8 @@
 
 public class Servicio {
 
-	public String nombre;
-	public int saldo;
+	String nombre;
+	int saldo;
 
 	public String getNombre() {
 		// TODO Auto-generated method stub
@@ -14,9 +14,9 @@ public class Servicio {
 		this.nombre=nombre;
 	}
 
-	public void setSaldo(int i) {
+	public void setSaldo(int saldo) {
 		// TODO Auto-generated method stub
-		saldo = i;
+		this.saldo = saldo;
 	}
 
 	public int getSaldo() {
