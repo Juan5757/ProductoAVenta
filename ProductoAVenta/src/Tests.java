@@ -12,4 +12,12 @@ public class Tests {
 		Assert.assertEquals("Lapiz",art.getNombre());
 	}
 	
+	@Test
+	public void elAriticuloDeberiaRetornar10SiIngreso10EnElSaldo(){
+		Articulo art = new Articulo();
+		art.saldo = 0;
+		art.setSaldo(10);
+		Assert.assertEquals(10, art.getSaldo());
+	}
+	
 }
