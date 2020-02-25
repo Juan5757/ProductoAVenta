@@ -51,4 +51,14 @@ public class Tests {
 		Producto prod = art;
 		Assert.assertEquals(true, prod.estaDisponible(5));
 	}
+	
+	@Test 
+	public void elProductoDeberiaRetornar25SiIngreso10ComoSaldoY15ComoPrecio(){
+		Articulo art = new Articulo();
+		art.nombre="Estuche";
+		art.saldo=10;
+		art.precio=15;
+		Producto prod = art;
+		Assert.assertEquals(25, prod.CalcularTarifa());
+	}
 }
