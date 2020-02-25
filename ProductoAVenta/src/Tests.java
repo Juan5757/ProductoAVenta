@@ -42,4 +42,13 @@ public class Tests {
 		art.precio=10;
 		Assert.assertEquals(15,art.CalcularTarifa());
 	}
+	
+	@Test
+	public void elProductoDeberiaRetornarTrueSiIngreso5ComoCantidadDeDisponibilidad(){
+		Articulo art = new Articulo();
+		art.precio = 0;
+		art.setPrecio(5);
+		Producto prod = art;
+		Assert.assertEquals(true, prod.estaDisponible(5));
+	}
 }

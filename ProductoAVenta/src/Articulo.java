@@ -1,5 +1,5 @@
 
-public class Articulo {
+public class Articulo implements Producto{
 
 	String nombre;
 	int saldo;
