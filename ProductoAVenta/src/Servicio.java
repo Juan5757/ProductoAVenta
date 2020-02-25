@@ -24,9 +24,9 @@ public class Servicio {
 		return precio;
 	}
 
-	public Object estaDisponible(int i) {
+	public Object estaDisponible(int cantidad) {
 		// TODO Auto-generated method stub
-		if(i>1)
+		if(cantidad>1)
 		{
 			return true;
 		}
