@@ -69,4 +69,13 @@ public class Tests {
 		serv.setNombre("Internet");
 		Assert.assertEquals("Internet", serv.getNombre());
 	}
+	
+	@Test
+	public void elServicioDeberiaRetornar30SiIngreso30EnElSaldo(){
+		Servicio serv = new Servicio();
+		serv.saldo = 0;
+		serv.setSaldo(30);
+		Assert.assertEquals(30, serv.getSaldo());
+	}
+	
 }
