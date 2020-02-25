@@ -24,4 +24,17 @@ public class Servicio {
 		return precio;
 	}
 
+	public Object estaDisponible(int i) {
+		// TODO Auto-generated method stub
+		if(i>1)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+		
+	}
+
 }

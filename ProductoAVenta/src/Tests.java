@@ -78,4 +78,10 @@ public class Tests {
 		Assert.assertEquals(30, serv.getPrecio());
 	}
 	
+	@Test
+	public void elServicioDeberiaRetornarTrueSiIngreso6ComoCantidadDisponible(){
+		Servicio serv = new Servicio();
+		Assert.assertEquals(true, serv.estaDisponible(6));
+	}
+	
 }
