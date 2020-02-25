@@ -84,6 +84,12 @@ public class Tests {
 		Assert.assertEquals(true, serv.estaDisponible(6));
 	}
 	
-	
+	@Test
+	public void elServicioDeberiaRetornar50SiIngreso50ComoPrecio(){
+		Servicio serv = new Servicio();
+		serv.nombre = "Internet";
+		serv.precio = 50;
+		Assert.assertEquals(50, serv.CalcularTarifa());
+	}
 	
 }

@@ -37,6 +37,11 @@ public class Servicio {
 		
 	}
 
+	public Object CalcularTarifa() {
+		// TODO Auto-generated method stub
+		return precio;
+	}
+
 
 
 }
