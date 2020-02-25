@@ -3,6 +3,7 @@ public class Articulo {
 
 	String nombre;
 	public int saldo;
+	public int precio;
 	
 	public void setNombre(String nombre) {
 		// TODO Auto-generated method stub
@@ -22,6 +23,16 @@ public class Articulo {
 	public int getSaldo() {
 		// TODO Auto-generated method stub
 		return saldo;
+	}
+
+	public void setPrecio(int i) {
+		// TODO Auto-generated method stub
+		this.precio = i;
+	}
+
+	public int getPrecio() {
+		// TODO Auto-generated method stub
+		return precio;
 	}
 
 	

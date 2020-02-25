@@ -20,4 +20,12 @@ public class Tests {
 		Assert.assertEquals(10, art.getSaldo());
 	}
 	
+	@Test
+	public void elArticuloDeberiaRetornar5SiIngreso5EnElPrecio(){
+		Articulo art = new Articulo();
+		art.precio = 0;
+		art.setPrecio(5);
+		Assert.assertEquals(5, art.getPrecio());
+		
+	}
 }
