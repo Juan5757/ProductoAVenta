@@ -61,4 +61,12 @@ public class Tests {
 		Producto prod = art;
 		Assert.assertEquals(25, prod.CalcularTarifa());
 	}
+	
+	@Test
+	public void elServicioDeberiaRetornarInternetSiIngresoInternet(){
+		Servicio serv = new Servicio();
+		serv.nombre = "Servicio";
+		serv.setNombre("Internet");
+		Assert.assertEquals("Internet", serv.getNombre());
+	}
 }
