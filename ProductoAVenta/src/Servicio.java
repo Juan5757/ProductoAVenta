@@ -2,7 +2,7 @@
 public class Servicio {
 
 	String nombre;
-	int saldo;
+	int precio;
 
 	public String getNombre() {
 		// TODO Auto-generated method stub
@@ -14,14 +14,14 @@ public class Servicio {
 		this.nombre=nombre;
 	}
 
-	public void setSaldo(int saldo) {
+	public void setPrecio(int precio) {
 		// TODO Auto-generated method stub
-		this.saldo = saldo;
+		this.precio = precio;
 	}
 
-	public int getSaldo() {
+	public int getPrecio() {
 		// TODO Auto-generated method stub
-		return saldo;
+		return precio;
 	}
 
 }
