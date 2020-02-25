@@ -33,4 +33,13 @@ public class Tests {
 		Articulo art = new Articulo();
 		Assert.assertEquals(true,art.estaDisponible(2));
 	}
+	
+	@Test
+	public void elArticuloDeberiaRetornar15SiIngreso5ComoSaldoY10ComoPrecio(){
+		Articulo art = new Articulo();
+		art.nombre="Lapiz";
+		art.saldo=5;
+		art.precio=10;
+		Assert.assertEquals(15,art.CalcularTarifa());
+	}
 }

@@ -47,6 +47,11 @@ public class Articulo {
 		}
 	}
 
+	public int CalcularTarifa() {
+		// TODO Auto-generated method stub
+		return saldo+precio;
+	}
+
 	
 	
 }
